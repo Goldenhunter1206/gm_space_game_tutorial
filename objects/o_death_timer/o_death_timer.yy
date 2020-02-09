@@ -1,43 +1,33 @@
 {
-    "id": "cf94f4d1-57a7-4f54-859f-74a00f17d179",
+    "id": "608a696a-e556-4255-9abf-f28e83667fe9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemy_ship_parent",
+    "name": "o_death_timer",
     "eventList": [
         {
-            "id": "1f1aa276-e588-4da9-9e7b-1f77fe25d608",
+            "id": "750739ef-6616-45ce-87b0-2fa5dd161172",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "cf94f4d1-57a7-4f54-859f-74a00f17d179"
+            "eventtype": 2,
+            "m_owner": "608a696a-e556-4255-9abf-f28e83667fe9"
         },
         {
-            "id": "dea21047-a2a6-4317-8c4b-c10318c6cdbd",
+            "id": "71c623ca-3d67-4282-b9c8-7e4696981b3c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "cf94f4d1-57a7-4f54-859f-74a00f17d179"
-        },
-        {
-            "id": "46788b01-6024-47ed-8645-2c0fed69fd2c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "f1b47da9-7ba2-4342-90c7-c68438aaa587",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "cf94f4d1-57a7-4f54-859f-74a00f17d179"
+            "eventtype": 0,
+            "m_owner": "608a696a-e556-4255-9abf-f28e83667fe9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "a62aceec-4211-41d5-9784-9d838b48d400",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -51,9 +41,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
