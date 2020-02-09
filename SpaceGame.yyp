@@ -50,7 +50,7 @@
             "Key": "08917828-cf4c-4182-8f2a-7ceb4ebe63aa",
             "Value": {
                 "id": "96c17b43-ecfa-4c56-b603-e37668acaf73",
-                "resourcePath": "objects\\o_enemy_ship\\o_enemy_ship.yy",
+                "resourcePath": "objects\\o_enemy_ship_one\\o_enemy_ship_one.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -84,6 +84,14 @@
                 "id": "7724eb8b-4104-48bd-882a-da537e665d4f",
                 "resourcePath": "views\\15600c59-a3b3-45a5-ad37-5b2d462f1912.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "16b71bd9-7a70-4c47-afea-da9e734495c0",
+            "Value": {
+                "id": "3cd87876-e053-44b7-8afd-a00f9070c0f4",
+                "resourcePath": "fonts\\f_one\\f_one.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -155,6 +163,14 @@
             "Value": {
                 "id": "a72da6a3-719e-46c3-b166-a7ec444cae4a",
                 "resourcePath": "rooms\\r_space\\r_space.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2aa7bdfc-05bd-4942-b824-bebd90f27e42",
+            "Value": {
+                "id": "49332cf0-11b4-49c6-9a79-a22bcaba1db0",
+                "resourcePath": "rooms\\r_menu\\r_menu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "584256ef-435a-4cb3-8f09-91f001bc3ad8",
+            "Value": {
+                "id": "c85e44af-81aa-4fec-8814-b88d88e42f3e",
+                "resourcePath": "objects\\o_start_button\\o_start_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61db5848-1e92-47d4-a659-200c2d472be4",
             "Value": {
                 "id": "9f64aa64-4fe2-4417-a7cc-acf769a26cd7",
@@ -276,6 +300,14 @@
                 "id": "25769ed0-1de9-46d4-ab1e-12db23bf84e3",
                 "resourcePath": "views\\64d7e460-fd26-4116-a717-678782785ca1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66f2021e-138a-4b87-8efd-170d6f8e30a8",
+            "Value": {
+                "id": "7eec81bf-a55d-4519-843f-8b6c32c9b2c1",
+                "resourcePath": "scripts\\recover_armor\\recover_armor.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -375,6 +407,22 @@
             }
         },
         {
+            "Key": "bade68f6-87ed-4ccf-9375-6cda8a12261c",
+            "Value": {
+                "id": "39d62a47-14a3-455d-a7d6-e0bea6d99978",
+                "resourcePath": "scripts\\spawn_enemies\\spawn_enemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be3d7d42-55b1-40e7-9f0a-697e48e580e0",
+            "Value": {
+                "id": "d1c0685c-1ff4-435d-b93a-56a6c93be4bd",
+                "resourcePath": "scripts\\hit_enemy\\hit_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c03204db-af3e-4da6-8019-1c715b3fb2a6",
             "Value": {
                 "id": "97e87534-2c9a-4678-84ff-7d46f9e837e1",
@@ -403,6 +451,14 @@
             "Value": {
                 "id": "7a43a0af-2b09-4e06-a238-f6c836f72403",
                 "resourcePath": "objects\\o_enemy_ship_parent\\o_enemy_ship_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d0d8cde6-2fbe-4ead-892c-10b1213e139b",
+            "Value": {
+                "id": "7118c176-859b-4ea1-8674-0935c161be62",
+                "resourcePath": "objects\\o_enemy_spawner\\o_enemy_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -502,7 +558,10 @@
         "63f911e2-a437-4a62-8e7c-8334a58ccd73",
         "c8d260ae-567c-4dba-a2d1-8ad8d99696c0",
         "221272d0-d863-4ad4-bd41-5fbc59a73803",
-        "4d9e5938-60c4-4738-b09b-ae46b50f1f6f"
+        "4d9e5938-60c4-4738-b09b-ae46b50f1f6f",
+        "be3d7d42-55b1-40e7-9f0a-697e48e580e0",
+        "bade68f6-87ed-4ccf-9375-6cda8a12261c",
+        "66f2021e-138a-4b87-8efd-170d6f8e30a8"
     ],
     "tutorial": ""
 }

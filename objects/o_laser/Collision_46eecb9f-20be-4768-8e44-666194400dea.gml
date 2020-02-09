@@ -1,2 +1,1 @@
-instance_destroy();
-other.armor -= 1;
+hit_enemy();
