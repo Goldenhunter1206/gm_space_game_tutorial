@@ -1,0 +1,1 @@
+bounce_off_object(other, 0.25, max_speed);
